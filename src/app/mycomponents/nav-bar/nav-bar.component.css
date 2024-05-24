@@ -1,0 +1,244 @@
+  *{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/assets/Images/back-image.png");
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+.login-btn{
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 70px;
+    color: #222;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+.feature-img{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}*/
+.feature-img.anim{
+    animation-delay: 1.5s;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+
+.main-container{
+    height: 720px;
+    background-image: url('/assets/Images/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-container button{
+    margin-right: 10px;
+}
+.nav img{
+    height: 280px;
+    width: auto;
+}
+.content{
+    width: 100%;
+    border: 4px solid rgb(255, 102, 0);
+    border-radius: 5px;
+    margin: auto;
+    background-color: rgba(249, 249, 249, 0.6);
+    box-shadow: 16px 16px 35px rgb(255, 255, 255);
+}
+.login, .join{
+    font-size: 18px;
+    background-color: rgb(255, 210, 158);
+    font-weight: 900;
+    border-bottom: 3px solid rgb(252, 76, 0);
+}
+.login:hover, .join:hover{
+    box-shadow: 3px 3px 15px white;
+}
+.trademark{
+    background-color: rgb(252, 114, 114);
+}
+.trademark:hover{
+    width: 230px;
+    height: 40px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
+.card{
+    border: none;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px rgb(87, 87, 87);
+}
+.card-three{
+    height: 150px;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+.card-body{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-body h5:hover{
+    color: rgb(160, 45, 45);
+    cursor: pointer;
+}
+.card-body button{
+    width: 50%;
+    background-color: rgb(252, 114, 114);
+    border-bottom: 3px solid rgb(252, 76, 0);
+}
+.card-body button:hover{
+    background-color: rgb(255, 204, 76);
+    border-bottom: 3px solid goldenrod;
+}
+.card-body a{
+    color: rgba(23, 139, 162, 0.805);
+    cursor: pointer;
+}
+.card-body a:hover{
+    color: rgb(160, 45, 45);
+}
+#heading{
+    color: rgb(109, 12, 12);
+}
+
+.prime{
+    background-image: url('/assets/Images/prime.jpg');
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgb(87, 87, 87);
+}
+.prime-card{
+    border: 4px solid rgb(230, 96, 56);
+    border-radius: 30px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    box-shadow: 1px 1px 30px rgb(255, 255, 255);
+}
+.prime-card img{
+    border-radius: 28px;
+}
+.prime-card button{
+    background-color: rgb(231, 104, 104);
+    border-bottom: 3px solid rgb(127, 36, 36);
+}
+.prime-card button:hover{
+    background-color: rgb(253, 199, 63);
+    border-bottom: 3px solid rgb(154, 117, 22);
+}
+.prime-card:hover{
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+}
+
+.matchmaker{
+    margin-top: 25px;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+}
+.card-match{
+    box-shadow: 2px 2px 10px black;
+}
+
+.card-review{
+    margin-left: 10px;
+    width: 450px;
+    text-align: start;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    border: 1px solid rgb(232, 232, 232);
+}
+.card-review:hover{
+    box-shadow: 2px 2px 10px rgb(184, 183, 183);
+}

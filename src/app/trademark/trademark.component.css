@@ -1,0 +1,372 @@
+/* @import "~@fortawesome/fontawesome-free/css/all.css";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    background-color: #528b86;
+    padding: 4px 15px;
+    color: white;
+}
+.trademark a{
+    text-decoration: none;
+    font-size: 13px;
+}
+ul li a{
+    text-decoration: none;
+    color: #777;
+}
+
+.heading-separator::before{
+
+    right: auto;
+    left: 0;
+    top: auto;
+    top: 2px;
+    background: #777;
+    width: 50%;
+    margin-left: -2px;
+}
+.heading-separator::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 1px;
+    bottom: 2px;
+    margin-right: -2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+section {
+  position: relative;
+  height: 500px;
+  width: 1075px;
+  display: flex;
+  align-items: center;
+}
+.swiper {
+  width: 950px;
+}
+.container {
+  border-radius: 20px;
+}
+.card .image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #000;
+}
+.card {
+  position: relative;
+  background: #000;
+  border: 3px solid #0ef;
+  border-radius: 20px;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0ef;
+  clip-path: circle(55% at 0 0);
+  border-top-left-radius: 10px;
+}
+.card .card-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.card .social-media {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .social-media i {
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+.card .social-media i:hover {
+  color: #0ef;
+}
+.card .name-profession {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  color: #fff;
+}
+.name-profession .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.name-profession .profession {
+  font-size: 15px;
+  font-weight: 500;
+}
+.card .rating {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.card .rating i {
+  font-size: 18px;
+  color: #0ef;
+  margin: 0 2px;
+}
+.card .button {
+  display: flex;
+  justify-content: space-around;
+  width: 110%;
+  margin-top: 20px;
+}
+.card .button button {
+  background: #0ef;
+  border: none;
+  outline: none;
+  color: #000;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: .3s;
+}
+.card .button button:hover {
+  background: #fff;
+}
+.swiper-pagination-bullet {
+  height: 7px;
+  width: 26px;
+  background: #0ef;
+  border-radius: 25px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0ef;
+} 
+
+.product{
+    padding: 20px 0;
+}
+
+.slider-wrap{
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+.slider-main{
+    position: absolute;
+    width: 200%;
+}
+
+.item{
+    display: inline-block;
+    width: 355px;
+    height: 350px;
+    position: relative;
+    margin: 0 12px;
+}
+.text{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    background-color: rgb(198, 255, 198);
+    font-size: 24px;
+    font-weight: bolder;
+}
+.prev{
+    position: absolute;
+    left: 33px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    box-shadow: 15px 10px 10px 50px white;
+    border: none;
+    font-size: 35px;
+}
+.next{
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    box-shadow: 15px 10px 10px 50px white;
+    border: none;
+    font-size: 35px;
+} */
+
+
+
+/* 
+ * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:host {
+  --text-color: #00aa85;
+  --back-color: #f8f9fa;
+  --font-color: rgb(0, 0, 0);
+}
+.top-section{
+  height: 316px;
+}
+.image img{
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  -webkit-background-size: cover;
+}
+
+.themecolor {
+  color: var(--text-color);
+}
+
+.backcolor {
+  background-color: var(--back-color);
+}
+
+.home{
+  border-bottom: 1px solid var(--text-color);
+}
+.home a:hover{
+  color: rgb(39, 158, 255);
+}
+.agree{
+  background-color: var(--text-color);
+  color: white;
+  border: none;
+}
+.agree:hover{
+  background-color: white;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+}
+.terms{
+  color: #7c7c7d;
+}
+.top-content{
+  position: relative;
+  top: -190px;
+  color: var(--font-color);
+}
+.checkbox{
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .themecolor {
+      font-size: 12px;
+  }
+
+  .content {
+      width: 80%;
+  }
+
+  .terms {
+      font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .themecolor {
+      font-size: 14px;
+  }
+}
+
+.slider-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.icon-container {
+  display: inline-block;
+  margin: 10px; 
+}
+
+.icon-inner-container {
+  text-align: center;
+}
+
+.icon-title {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.slider-wrapper {
+  width: 100%;
+}
+
+.center-card {
+  transform: scale(1.1); 
+}
+
+.icon-container {
+} */
+
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
+
